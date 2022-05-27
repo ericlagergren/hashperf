@@ -1,0 +1,576 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/ericlagergren/hashperf
+cpu: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+BenchmarkBaseline
+BenchmarkBaseline/1
+BenchmarkBaseline/1-12        	615659937	         1.767 ns/op	 565.78 MB/s
+BenchmarkBaseline/2
+BenchmarkBaseline/2-12        	671822132	         1.764 ns/op	1134.01 MB/s
+BenchmarkBaseline/4
+BenchmarkBaseline/4-12        	674854708	         1.774 ns/op	2255.14 MB/s
+BenchmarkBaseline/8
+BenchmarkBaseline/8-12        	682444716	         1.774 ns/op	4510.28 MB/s
+BenchmarkBaseline/16
+BenchmarkBaseline/16-12       	641321354	         1.772 ns/op	9031.60 MB/s
+BenchmarkBaseline/32
+BenchmarkBaseline/32-12       	684364924	         1.788 ns/op	17897.14 MB/s
+BenchmarkBaseline/64
+BenchmarkBaseline/64-12       	667316328	         1.768 ns/op	36189.17 MB/s
+BenchmarkBaseline/128
+BenchmarkBaseline/128-12      	684406111	         1.768 ns/op	72395.90 MB/s
+BenchmarkBaseline/256
+BenchmarkBaseline/256-12      	685379318	         1.762 ns/op	145328.18 MB/s
+BenchmarkBaseline/512
+BenchmarkBaseline/512-12      	672740617	         1.767 ns/op	289730.16 MB/s
+BenchmarkBaseline/1024
+BenchmarkBaseline/1024-12     	675736240	         1.777 ns/op	576339.91 MB/s
+BenchmarkBaseline/2048
+BenchmarkBaseline/2048-12     	552303546	         2.031 ns/op	1008310.60 MB/s
+BenchmarkBaseline/4096
+BenchmarkBaseline/4096-12     	663569587	         1.756 ns/op	2332920.84 MB/s
+BenchmarkBaseline/8192
+BenchmarkBaseline/8192-12     	678690374	         1.772 ns/op	4623416.54 MB/s
+BenchmarkBLAKE2b256
+BenchmarkBLAKE2b256/1
+BenchmarkBLAKE2b256/1-12      	220736484	         5.451 ns/op	 183.47 MB/s
+BenchmarkBLAKE2b256/2
+BenchmarkBLAKE2b256/2-12      	186650505	         6.349 ns/op	 315.01 MB/s
+BenchmarkBLAKE2b256/4
+BenchmarkBLAKE2b256/4-12      	149577716	         8.193 ns/op	 488.22 MB/s
+BenchmarkBLAKE2b256/8
+BenchmarkBLAKE2b256/8-12      	100000000	        11.87 ns/op	 674.15 MB/s
+BenchmarkBLAKE2b256/16
+BenchmarkBLAKE2b256/16-12     	61490202	        19.51 ns/op	 820.20 MB/s
+BenchmarkBLAKE2b256/32
+BenchmarkBLAKE2b256/32-12     	34165054	        35.25 ns/op	 907.76 MB/s
+BenchmarkBLAKE2b256/64
+BenchmarkBLAKE2b256/64-12     	18642224	        64.95 ns/op	 985.32 MB/s
+BenchmarkBLAKE2b256/128
+BenchmarkBLAKE2b256/128-12    	 9446168	       125.7 ns/op	1017.93 MB/s
+BenchmarkBLAKE2b256/256
+BenchmarkBLAKE2b256/256-12    	 4773186	       245.1 ns/op	1044.67 MB/s
+BenchmarkBLAKE2b256/512
+BenchmarkBLAKE2b256/512-12    	 2575020	       471.2 ns/op	1086.67 MB/s
+BenchmarkBLAKE2b256/1024
+BenchmarkBLAKE2b256/1024-12   	 1304931	       927.2 ns/op	1104.43 MB/s
+BenchmarkBLAKE2b256/2048
+BenchmarkBLAKE2b256/2048-12   	  633630	      1838 ns/op	1114.39 MB/s
+BenchmarkBLAKE2b256/4096
+BenchmarkBLAKE2b256/4096-12   	  292563	      3683 ns/op	1112.19 MB/s
+BenchmarkBLAKE2b256/8192
+BenchmarkBLAKE2b256/8192-12   	  158546	      7259 ns/op	1128.45 MB/s
+BenchmarkBLAKE2b512
+BenchmarkBLAKE2b512/1
+BenchmarkBLAKE2b512/1-12      	223425460	         5.446 ns/op	 183.62 MB/s
+BenchmarkBLAKE2b512/2
+BenchmarkBLAKE2b512/2-12      	186394693	         6.421 ns/op	 311.46 MB/s
+BenchmarkBLAKE2b512/4
+BenchmarkBLAKE2b512/4-12      	147168475	         8.036 ns/op	 497.79 MB/s
+BenchmarkBLAKE2b512/8
+BenchmarkBLAKE2b512/8-12      	100000000	        11.75 ns/op	 681.10 MB/s
+BenchmarkBLAKE2b512/16
+BenchmarkBLAKE2b512/16-12     	61373824	        19.48 ns/op	 821.24 MB/s
+BenchmarkBLAKE2b512/32
+BenchmarkBLAKE2b512/32-12     	34273491	        34.53 ns/op	 926.67 MB/s
+BenchmarkBLAKE2b512/64
+BenchmarkBLAKE2b512/64-12     	18203292	        65.29 ns/op	 980.22 MB/s
+BenchmarkBLAKE2b512/128
+BenchmarkBLAKE2b512/128-12    	 9069480	       127.0 ns/op	1008.21 MB/s
+BenchmarkBLAKE2b512/256
+BenchmarkBLAKE2b512/256-12    	 4909950	       245.6 ns/op	1042.32 MB/s
+BenchmarkBLAKE2b512/512
+BenchmarkBLAKE2b512/512-12    	 2537078	       475.3 ns/op	1077.22 MB/s
+BenchmarkBLAKE2b512/1024
+BenchmarkBLAKE2b512/1024-12   	 1292116	       941.0 ns/op	1088.19 MB/s
+BenchmarkBLAKE2b512/2048
+BenchmarkBLAKE2b512/2048-12   	  653022	      1874 ns/op	1093.13 MB/s
+BenchmarkBLAKE2b512/4096
+BenchmarkBLAKE2b512/4096-12   	  326161	      3760 ns/op	1089.37 MB/s
+BenchmarkBLAKE2b512/8192
+BenchmarkBLAKE2b512/8192-12   	  159255	      7233 ns/op	1132.61 MB/s
+BenchmarkBLAKE2s256
+BenchmarkBLAKE2s256/1
+BenchmarkBLAKE2s256/1-12      	198416036	         5.922 ns/op	 168.85 MB/s
+BenchmarkBLAKE2s256/2
+BenchmarkBLAKE2s256/2-12      	160931509	         7.445 ns/op	 268.65 MB/s
+BenchmarkBLAKE2s256/4
+BenchmarkBLAKE2s256/4-12      	120564962	         9.912 ns/op	 403.53 MB/s
+BenchmarkBLAKE2s256/8
+BenchmarkBLAKE2s256/8-12      	76616296	        16.02 ns/op	 499.37 MB/s
+BenchmarkBLAKE2s256/16
+BenchmarkBLAKE2s256/16-12     	44521221	        27.03 ns/op	 592.02 MB/s
+BenchmarkBLAKE2s256/32
+BenchmarkBLAKE2s256/32-12     	24306414	        49.40 ns/op	 647.76 MB/s
+BenchmarkBLAKE2s256/64
+BenchmarkBLAKE2s256/64-12     	12621727	        94.87 ns/op	 674.60 MB/s
+BenchmarkBLAKE2s256/128
+BenchmarkBLAKE2s256/128-12    	 5691212	       183.8 ns/op	 696.48 MB/s
+BenchmarkBLAKE2s256/256
+BenchmarkBLAKE2s256/256-12    	 3541173	       337.2 ns/op	 759.15 MB/s
+BenchmarkBLAKE2s256/512
+BenchmarkBLAKE2s256/512-12    	 1845868	       646.3 ns/op	 792.19 MB/s
+BenchmarkBLAKE2s256/1024
+BenchmarkBLAKE2s256/1024-12   	  940096	      1265 ns/op	 809.26 MB/s
+BenchmarkBLAKE2s256/2048
+BenchmarkBLAKE2s256/2048-12   	  472418	      2508 ns/op	 816.75 MB/s
+BenchmarkBLAKE2s256/4096
+BenchmarkBLAKE2s256/4096-12   	  239696	      4992 ns/op	 820.53 MB/s
+BenchmarkBLAKE2s256/8192
+BenchmarkBLAKE2s256/8192-12   	  115318	      9870 ns/op	 829.99 MB/s
+BenchmarkCRC32
+BenchmarkCRC32/1
+BenchmarkCRC32/1-12           	200900826	         5.876 ns/op	 170.19 MB/s
+BenchmarkCRC32/2
+BenchmarkCRC32/2-12           	180814399	         6.547 ns/op	 305.48 MB/s
+BenchmarkCRC32/4
+BenchmarkCRC32/4-12           	126138380	         9.513 ns/op	 420.47 MB/s
+BenchmarkCRC32/8
+BenchmarkCRC32/8-12           	68799690	        17.75 ns/op	 450.60 MB/s
+BenchmarkCRC32/16
+BenchmarkCRC32/16-12          	56577216	        21.29 ns/op	 751.63 MB/s
+BenchmarkCRC32/32
+BenchmarkCRC32/32-12          	41340117	        27.29 ns/op	1172.77 MB/s
+BenchmarkCRC32/64
+BenchmarkCRC32/64-12          	57040081	        20.90 ns/op	3062.06 MB/s
+BenchmarkCRC32/128
+BenchmarkCRC32/128-12         	47493856	        23.07 ns/op	5549.30 MB/s
+BenchmarkCRC32/256
+BenchmarkCRC32/256-12         	37630590	        28.20 ns/op	9076.76 MB/s
+BenchmarkCRC32/512
+BenchmarkCRC32/512-12         	31227780	        38.08 ns/op	13446.53 MB/s
+BenchmarkCRC32/1024
+BenchmarkCRC32/1024-12        	20313940	        58.69 ns/op	17447.94 MB/s
+BenchmarkCRC32/2048
+BenchmarkCRC32/2048-12        	12132571	       100.9 ns/op	20298.84 MB/s
+BenchmarkCRC32/4096
+BenchmarkCRC32/4096-12        	 6577738	       180.6 ns/op	22678.27 MB/s
+BenchmarkCRC32/8192
+BenchmarkCRC32/8192-12        	 3473406	       341.1 ns/op	24015.95 MB/s
+BenchmarkFNV64a
+BenchmarkFNV64a/1
+BenchmarkFNV64a/1-12          	530867763	         2.251 ns/op	 444.26 MB/s
+BenchmarkFNV64a/2
+BenchmarkFNV64a/2-12          	399328749	         3.037 ns/op	 658.49 MB/s
+BenchmarkFNV64a/4
+BenchmarkFNV64a/4-12          	255331905	         4.783 ns/op	 836.23 MB/s
+BenchmarkFNV64a/8
+BenchmarkFNV64a/8-12          	137011173	         8.834 ns/op	 905.62 MB/s
+BenchmarkFNV64a/16
+BenchmarkFNV64a/16-12         	70926994	        16.86 ns/op	 948.72 MB/s
+BenchmarkFNV64a/32
+BenchmarkFNV64a/32-12         	36126279	        32.90 ns/op	 972.55 MB/s
+BenchmarkFNV64a/64
+BenchmarkFNV64a/64-12         	17405004	        64.90 ns/op	 986.14 MB/s
+BenchmarkFNV64a/128
+BenchmarkFNV64a/128-12        	 9304819	       129.3 ns/op	 989.99 MB/s
+BenchmarkFNV64a/256
+BenchmarkFNV64a/256-12        	 4652288	       257.5 ns/op	 994.34 MB/s
+BenchmarkFNV64a/512
+BenchmarkFNV64a/512-12        	 2314926	       512.8 ns/op	 998.51 MB/s
+BenchmarkFNV64a/1024
+BenchmarkFNV64a/1024-12       	 1000000	      1029 ns/op	 994.89 MB/s
+BenchmarkFNV64a/2048
+BenchmarkFNV64a/2048-12       	  548566	      2120 ns/op	 965.82 MB/s
+BenchmarkFNV64a/4096
+BenchmarkFNV64a/4096-12       	  291847	      4102 ns/op	 998.48 MB/s
+BenchmarkFNV64a/8192
+BenchmarkFNV64a/8192-12       	  144325	      8195 ns/op	 999.67 MB/s
+BenchmarkFNV128a
+BenchmarkFNV128a/1
+BenchmarkFNV128a/1-12         	419320560	         2.765 ns/op	 361.71 MB/s
+BenchmarkFNV128a/2
+BenchmarkFNV128a/2-12         	291240273	         4.198 ns/op	 476.39 MB/s
+BenchmarkFNV128a/4
+BenchmarkFNV128a/4-12         	145203624	         8.282 ns/op	 482.95 MB/s
+BenchmarkFNV128a/8
+BenchmarkFNV128a/8-12         	71821928	        16.58 ns/op	 482.59 MB/s
+BenchmarkFNV128a/16
+BenchmarkFNV128a/16-12        	34433856	        32.78 ns/op	 488.07 MB/s
+BenchmarkFNV128a/32
+BenchmarkFNV128a/32-12        	18408847	        65.54 ns/op	 488.25 MB/s
+BenchmarkFNV128a/64
+BenchmarkFNV128a/64-12        	 9149559	       129.8 ns/op	 493.01 MB/s
+BenchmarkFNV128a/128
+BenchmarkFNV128a/128-12       	 4521481	       261.7 ns/op	 489.07 MB/s
+BenchmarkFNV128a/256
+BenchmarkFNV128a/256-12       	 2257425	       527.1 ns/op	 485.69 MB/s
+BenchmarkFNV128a/512
+BenchmarkFNV128a/512-12       	 1000000	      1052 ns/op	 486.63 MB/s
+BenchmarkFNV128a/1024
+BenchmarkFNV128a/1024-12      	  568806	      2086 ns/op	 490.94 MB/s
+BenchmarkFNV128a/2048
+BenchmarkFNV128a/2048-12      	  286586	      4886 ns/op	 419.16 MB/s
+BenchmarkFNV128a/4096
+BenchmarkFNV128a/4096-12      	  142797	      8356 ns/op	 490.21 MB/s
+BenchmarkFNV128a/8192
+BenchmarkFNV128a/8192-12      	   68995	     16771 ns/op	 488.46 MB/s
+BenchmarkHighwayHash64
+BenchmarkHighwayHash64/1
+BenchmarkHighwayHash64/1-12   	262817995	         4.534 ns/op	 220.54 MB/s
+BenchmarkHighwayHash64/2
+BenchmarkHighwayHash64/2-12   	261402903	         4.527 ns/op	 441.80 MB/s
+BenchmarkHighwayHash64/4
+BenchmarkHighwayHash64/4-12   	241503976	         5.040 ns/op	 793.64 MB/s
+BenchmarkHighwayHash64/8
+BenchmarkHighwayHash64/8-12   	177600670	         6.771 ns/op	1181.53 MB/s
+BenchmarkHighwayHash64/16
+BenchmarkHighwayHash64/16-12  	100000000	        10.15 ns/op	1576.89 MB/s
+BenchmarkHighwayHash64/32
+BenchmarkHighwayHash64/32-12  	74862174	        16.10 ns/op	1987.18 MB/s
+BenchmarkHighwayHash64/64
+BenchmarkHighwayHash64/64-12  	55845262	        21.36 ns/op	2996.79 MB/s
+BenchmarkHighwayHash64/128
+BenchmarkHighwayHash64/128-12 	47478078	        23.88 ns/op	5360.46 MB/s
+BenchmarkHighwayHash64/256
+BenchmarkHighwayHash64/256-12 	36379387	        32.61 ns/op	7849.44 MB/s
+BenchmarkHighwayHash64/512
+BenchmarkHighwayHash64/512-12 	23819631	        48.62 ns/op	10529.79 MB/s
+BenchmarkHighwayHash64/1024
+BenchmarkHighwayHash64/1024-12         	15164539	        78.81 ns/op	12993.82 MB/s
+BenchmarkHighwayHash64/2048
+BenchmarkHighwayHash64/2048-12         	 8357332	       144.5 ns/op	14173.59 MB/s
+BenchmarkHighwayHash64/4096
+BenchmarkHighwayHash64/4096-12         	 4290277	       274.5 ns/op	14920.61 MB/s
+BenchmarkHighwayHash64/8192
+BenchmarkHighwayHash64/8192-12         	 2287938	       529.1 ns/op	15483.12 MB/s
+BenchmarkHighwayHash128
+BenchmarkHighwayHash128/1
+BenchmarkHighwayHash128/1-12           	260464506	         4.529 ns/op	 220.80 MB/s
+BenchmarkHighwayHash128/2
+BenchmarkHighwayHash128/2-12           	255427066	         4.757 ns/op	 420.39 MB/s
+BenchmarkHighwayHash128/4
+BenchmarkHighwayHash128/4-12           	223208097	         5.352 ns/op	 747.42 MB/s
+BenchmarkHighwayHash128/8
+BenchmarkHighwayHash128/8-12           	171601849	         6.907 ns/op	1158.31 MB/s
+BenchmarkHighwayHash128/16
+BenchmarkHighwayHash128/16-12          	100000000	        10.06 ns/op	1590.74 MB/s
+BenchmarkHighwayHash128/32
+BenchmarkHighwayHash128/32-12          	73975599	        16.01 ns/op	1999.37 MB/s
+BenchmarkHighwayHash128/64
+BenchmarkHighwayHash128/64-12          	57072757	        21.41 ns/op	2989.44 MB/s
+BenchmarkHighwayHash128/128
+BenchmarkHighwayHash128/128-12         	50689678	        23.51 ns/op	5445.60 MB/s
+BenchmarkHighwayHash128/256
+BenchmarkHighwayHash128/256-12         	36692664	        32.54 ns/op	7867.93 MB/s
+BenchmarkHighwayHash128/512
+BenchmarkHighwayHash128/512-12         	24575332	        48.36 ns/op	10586.73 MB/s
+BenchmarkHighwayHash128/1024
+BenchmarkHighwayHash128/1024-12        	14767584	        79.10 ns/op	12946.43 MB/s
+BenchmarkHighwayHash128/2048
+BenchmarkHighwayHash128/2048-12        	 8389768	       144.2 ns/op	14204.69 MB/s
+BenchmarkHighwayHash128/4096
+BenchmarkHighwayHash128/4096-12        	 4381632	       282.5 ns/op	14499.73 MB/s
+BenchmarkHighwayHash128/8192
+BenchmarkHighwayHash128/8192-12        	 2242838	       530.1 ns/op	15453.59 MB/s
+BenchmarkHighwayHash256
+BenchmarkHighwayHash256/1
+BenchmarkHighwayHash256/1-12           	267004246	         4.572 ns/op	 218.72 MB/s
+BenchmarkHighwayHash256/2
+BenchmarkHighwayHash256/2-12           	254181416	         4.736 ns/op	 422.31 MB/s
+BenchmarkHighwayHash256/4
+BenchmarkHighwayHash256/4-12           	218511237	         5.338 ns/op	 749.30 MB/s
+BenchmarkHighwayHash256/8
+BenchmarkHighwayHash256/8-12           	172865638	         7.042 ns/op	1136.00 MB/s
+BenchmarkHighwayHash256/16
+BenchmarkHighwayHash256/16-12          	121446330	         9.976 ns/op	1603.83 MB/s
+BenchmarkHighwayHash256/32
+BenchmarkHighwayHash256/32-12          	72940249	        16.12 ns/op	1984.57 MB/s
+BenchmarkHighwayHash256/64
+BenchmarkHighwayHash256/64-12          	55892881	        21.62 ns/op	2960.08 MB/s
+BenchmarkHighwayHash256/128
+BenchmarkHighwayHash256/128-12         	50559230	        23.54 ns/op	5438.38 MB/s
+BenchmarkHighwayHash256/256
+BenchmarkHighwayHash256/256-12         	34545081	        32.33 ns/op	7918.54 MB/s
+BenchmarkHighwayHash256/512
+BenchmarkHighwayHash256/512-12         	24549888	        48.67 ns/op	10520.71 MB/s
+BenchmarkHighwayHash256/1024
+BenchmarkHighwayHash256/1024-12        	14585629	        79.36 ns/op	12903.02 MB/s
+BenchmarkHighwayHash256/2048
+BenchmarkHighwayHash256/2048-12        	 8143549	       144.3 ns/op	14194.85 MB/s
+BenchmarkHighwayHash256/4096
+BenchmarkHighwayHash256/4096-12        	 4382310	       274.2 ns/op	14936.80 MB/s
+BenchmarkHighwayHash256/8192
+BenchmarkHighwayHash256/8192-12        	 2232141	       533.7 ns/op	15349.37 MB/s
+BenchmarkMaphash
+BenchmarkMaphash/1
+BenchmarkMaphash/1-12                  	251779428	         4.788 ns/op	 208.85 MB/s
+BenchmarkMaphash/2
+BenchmarkMaphash/2-12                  	237396084	         4.993 ns/op	 400.54 MB/s
+BenchmarkMaphash/4
+BenchmarkMaphash/4-12                  	227214439	         5.246 ns/op	 762.43 MB/s
+BenchmarkMaphash/8
+BenchmarkMaphash/8-12                  	199414675	         6.152 ns/op	1300.34 MB/s
+BenchmarkMaphash/16
+BenchmarkMaphash/16-12                 	184929738	         6.357 ns/op	2516.97 MB/s
+BenchmarkMaphash/32
+BenchmarkMaphash/32-12                 	148543498	         7.991 ns/op	4004.71 MB/s
+BenchmarkMaphash/64
+BenchmarkMaphash/64-12                 	99638569	        11.49 ns/op	5570.59 MB/s
+BenchmarkMaphash/128
+BenchmarkMaphash/128-12                	67225098	        17.83 ns/op	7176.97 MB/s
+BenchmarkMaphash/256
+BenchmarkMaphash/256-12                	40335046	        29.59 ns/op	8652.71 MB/s
+BenchmarkMaphash/512
+BenchmarkMaphash/512-12                	21901778	        54.43 ns/op	9406.91 MB/s
+BenchmarkMaphash/1024
+BenchmarkMaphash/1024-12               	11451662	       103.9 ns/op	9850.99 MB/s
+BenchmarkMaphash/2048
+BenchmarkMaphash/2048-12               	 5964402	       203.5 ns/op	10065.92 MB/s
+BenchmarkMaphash/4096
+BenchmarkMaphash/4096-12               	 2967573	       411.1 ns/op	9962.93 MB/s
+BenchmarkMaphash/8192
+BenchmarkMaphash/8192-12               	 1484967	       804.3 ns/op	10185.68 MB/s
+BenchmarkMD5
+BenchmarkMD5/1
+BenchmarkMD5/1-12                      	174994072	         6.830 ns/op	 146.41 MB/s
+BenchmarkMD5/2
+BenchmarkMD5/2-12                      	146861305	         8.180 ns/op	 244.49 MB/s
+BenchmarkMD5/4
+BenchmarkMD5/4-12                      	100000000	        10.99 ns/op	 364.07 MB/s
+BenchmarkMD5/8
+BenchmarkMD5/8-12                      	75861732	        15.87 ns/op	 504.12 MB/s
+BenchmarkMD5/16
+BenchmarkMD5/16-12                     	46305096	        26.11 ns/op	 612.78 MB/s
+BenchmarkMD5/32
+BenchmarkMD5/32-12                     	25761696	        46.47 ns/op	 688.67 MB/s
+BenchmarkMD5/64
+BenchmarkMD5/64-12                     	13879875	        86.77 ns/op	 737.59 MB/s
+BenchmarkMD5/128
+BenchmarkMD5/128-12                    	 7140369	       168.1 ns/op	 761.32 MB/s
+BenchmarkMD5/256
+BenchmarkMD5/256-12                    	 3663259	       323.3 ns/op	 791.80 MB/s
+BenchmarkMD5/512
+BenchmarkMD5/512-12                    	 1870267	       649.5 ns/op	 788.32 MB/s
+BenchmarkMD5/1024
+BenchmarkMD5/1024-12                   	  928737	      1281 ns/op	 799.17 MB/s
+BenchmarkMD5/2048
+BenchmarkMD5/2048-12                   	  474327	      2577 ns/op	 794.70 MB/s
+BenchmarkMD5/4096
+BenchmarkMD5/4096-12                   	  233330	      5066 ns/op	 808.48 MB/s
+BenchmarkMD5/8192
+BenchmarkMD5/8192-12                   	  116997	     10144 ns/op	 807.54 MB/s
+BenchmarkPOLYVAL
+BenchmarkPOLYVAL/16
+BenchmarkPOLYVAL/16-12                 	126635268	         9.567 ns/op	1672.33 MB/s
+BenchmarkPOLYVAL/32
+BenchmarkPOLYVAL/32-12                 	66766794	        17.79 ns/op	1798.44 MB/s
+BenchmarkPOLYVAL/64
+BenchmarkPOLYVAL/64-12                 	33940915	        34.11 ns/op	1876.21 MB/s
+BenchmarkPOLYVAL/128
+BenchmarkPOLYVAL/128-12                	78198733	        15.30 ns/op	8368.06 MB/s
+BenchmarkPOLYVAL/256
+BenchmarkPOLYVAL/256-12                	44446492	        27.24 ns/op	9399.31 MB/s
+BenchmarkPOLYVAL/512
+BenchmarkPOLYVAL/512-12                	23823535	        49.83 ns/op	10274.75 MB/s
+BenchmarkPOLYVAL/1024
+BenchmarkPOLYVAL/1024-12               	12507321	        95.97 ns/op	10670.23 MB/s
+BenchmarkPOLYVAL/2048
+BenchmarkPOLYVAL/2048-12               	 6394374	       188.2 ns/op	10881.28 MB/s
+BenchmarkPOLYVAL/4096
+BenchmarkPOLYVAL/4096-12               	 3124417	       377.7 ns/op	10843.77 MB/s
+BenchmarkPOLYVAL/8192
+BenchmarkPOLYVAL/8192-12               	 1618690	       901.6 ns/op	9086.04 MB/s
+BenchmarkSipHash64
+BenchmarkSipHash64/1
+BenchmarkSipHash64/1-12                	185890074	         6.523 ns/op	 153.31 MB/s
+BenchmarkSipHash64/2
+BenchmarkSipHash64/2-12                	150122302	         8.066 ns/op	 247.95 MB/s
+BenchmarkSipHash64/4
+BenchmarkSipHash64/4-12                	98028747	        10.29 ns/op	 388.59 MB/s
+BenchmarkSipHash64/8
+BenchmarkSipHash64/8-12                	79876456	        14.76 ns/op	 541.94 MB/s
+BenchmarkSipHash64/16
+BenchmarkSipHash64/16-12               	60289488	        19.80 ns/op	 807.95 MB/s
+BenchmarkSipHash64/32
+BenchmarkSipHash64/32-12               	47941648	        25.19 ns/op	1270.43 MB/s
+BenchmarkSipHash64/64
+BenchmarkSipHash64/64-12               	32682723	        37.28 ns/op	1716.59 MB/s
+BenchmarkSipHash64/128
+BenchmarkSipHash64/128-12              	19200720	        59.99 ns/op	2133.81 MB/s
+BenchmarkSipHash64/256
+BenchmarkSipHash64/256-12              	11211466	       106.7 ns/op	2399.65 MB/s
+BenchmarkSipHash64/512
+BenchmarkSipHash64/512-12              	 5825511	       199.6 ns/op	2565.07 MB/s
+BenchmarkSipHash64/1024
+BenchmarkSipHash64/1024-12             	 3119991	       387.7 ns/op	2641.11 MB/s
+BenchmarkSipHash64/2048
+BenchmarkSipHash64/2048-12             	 1575516	       758.7 ns/op	2699.46 MB/s
+BenchmarkSipHash64/4096
+BenchmarkSipHash64/4096-12             	  772023	      1503 ns/op	2724.54 MB/s
+BenchmarkSipHash64/8192
+BenchmarkSipHash64/8192-12             	  377646	      2980 ns/op	2749.25 MB/s
+BenchmarkSipHash128
+BenchmarkSipHash128/1
+BenchmarkSipHash128/1-12               	181210839	         6.556 ns/op	 152.53 MB/s
+BenchmarkSipHash128/2
+BenchmarkSipHash128/2-12               	164965521	         7.234 ns/op	 276.48 MB/s
+BenchmarkSipHash128/4
+BenchmarkSipHash128/4-12               	143628564	         8.307 ns/op	 481.52 MB/s
+BenchmarkSipHash128/8
+BenchmarkSipHash128/8-12               	86043006	        13.95 ns/op	 573.32 MB/s
+BenchmarkSipHash128/16
+BenchmarkSipHash128/16-12              	61841888	        19.40 ns/op	 824.60 MB/s
+BenchmarkSipHash128/32
+BenchmarkSipHash128/32-12              	45264249	        24.44 ns/op	1309.31 MB/s
+BenchmarkSipHash128/64
+BenchmarkSipHash128/64-12              	31269121	        35.90 ns/op	1782.55 MB/s
+BenchmarkSipHash128/128
+BenchmarkSipHash128/128-12             	19587999	        58.36 ns/op	2193.45 MB/s
+BenchmarkSipHash128/256
+BenchmarkSipHash128/256-12             	11421192	       104.5 ns/op	2450.36 MB/s
+BenchmarkSipHash128/512
+BenchmarkSipHash128/512-12             	 6125702	       196.9 ns/op	2600.49 MB/s
+BenchmarkSipHash128/1024
+BenchmarkSipHash128/1024-12            	 3102753	       388.4 ns/op	2636.24 MB/s
+BenchmarkSipHash128/2048
+BenchmarkSipHash128/2048-12            	 1586326	       758.2 ns/op	2701.26 MB/s
+BenchmarkSipHash128/4096
+BenchmarkSipHash128/4096-12            	  802742	      1494 ns/op	2741.88 MB/s
+BenchmarkSipHash128/8192
+BenchmarkSipHash128/8192-12            	  384565	      3034 ns/op	2699.66 MB/s
+BenchmarkSHA1
+BenchmarkSHA1/1
+BenchmarkSHA1/1-12                     	167067422	         7.141 ns/op	 140.04 MB/s
+BenchmarkSHA1/2
+BenchmarkSHA1/2-12                     	132252550	         8.791 ns/op	 227.50 MB/s
+BenchmarkSHA1/4
+BenchmarkSHA1/4-12                     	89027388	        12.30 ns/op	 325.08 MB/s
+BenchmarkSHA1/8
+BenchmarkSHA1/8-12                     	62063088	        18.11 ns/op	 441.63 MB/s
+BenchmarkSHA1/16
+BenchmarkSHA1/16-12                    	38712774	        31.11 ns/op	 514.28 MB/s
+BenchmarkSHA1/32
+BenchmarkSHA1/32-12                    	20699918	        55.40 ns/op	 577.61 MB/s
+BenchmarkSHA1/64
+BenchmarkSHA1/64-12                    	11473598	       106.1 ns/op	 602.97 MB/s
+BenchmarkSHA1/128
+BenchmarkSHA1/128-12                   	 5889654	       203.6 ns/op	 628.72 MB/s
+BenchmarkSHA1/256
+BenchmarkSHA1/256-12                   	 3040370	       390.9 ns/op	 654.85 MB/s
+BenchmarkSHA1/512
+BenchmarkSHA1/512-12                   	 1856977	       646.6 ns/op	 791.83 MB/s
+BenchmarkSHA1/1024
+BenchmarkSHA1/1024-12                  	 1000000	      1089 ns/op	 940.59 MB/s
+BenchmarkSHA1/2048
+BenchmarkSHA1/2048-12                  	  612874	      1997 ns/op	1025.59 MB/s
+BenchmarkSHA1/4096
+BenchmarkSHA1/4096-12                  	  315346	      3771 ns/op	1086.32 MB/s
+BenchmarkSHA1/8192
+BenchmarkSHA1/8192-12                  	  161180	      7332 ns/op	1117.34 MB/s
+BenchmarkSHA256
+BenchmarkSHA256/1
+BenchmarkSHA256/1-12                   	146784889	         8.104 ns/op	 123.40 MB/s
+BenchmarkSHA256/2
+BenchmarkSHA256/2-12                   	100000000	        10.58 ns/op	 188.96 MB/s
+BenchmarkSHA256/4
+BenchmarkSHA256/4-12                   	74957158	        15.85 ns/op	 252.40 MB/s
+BenchmarkSHA256/8
+BenchmarkSHA256/8-12                   	46109091	        25.29 ns/op	 316.32 MB/s
+BenchmarkSHA256/16
+BenchmarkSHA256/16-12                  	26038135	        45.12 ns/op	 354.65 MB/s
+BenchmarkSHA256/32
+BenchmarkSHA256/32-12                  	14330070	        84.66 ns/op	 377.98 MB/s
+BenchmarkSHA256/64
+BenchmarkSHA256/64-12                  	 7085079	       167.2 ns/op	 382.79 MB/s
+BenchmarkSHA256/128
+BenchmarkSHA256/128-12                 	 3776437	       319.6 ns/op	 400.49 MB/s
+BenchmarkSHA256/256
+BenchmarkSHA256/256-12                 	 1988312	       604.0 ns/op	 423.84 MB/s
+BenchmarkSHA256/512
+BenchmarkSHA256/512-12                 	 1000000	      1164 ns/op	 439.95 MB/s
+BenchmarkSHA256/1024
+BenchmarkSHA256/1024-12                	  516536	      2294 ns/op	 446.47 MB/s
+BenchmarkSHA256/2048
+BenchmarkSHA256/2048-12                	  247092	      4549 ns/op	 450.17 MB/s
+BenchmarkSHA256/4096
+BenchmarkSHA256/4096-12                	  131912	      9127 ns/op	 448.79 MB/s
+BenchmarkSHA256/8192
+BenchmarkSHA256/8192-12                	   64639	     18037 ns/op	 454.18 MB/s
+BenchmarkSHA512
+BenchmarkSHA512/1
+BenchmarkSHA512/1-12                   	164533646	         7.314 ns/op	 136.72 MB/s
+BenchmarkSHA512/2
+BenchmarkSHA512/2-12                   	132406386	         9.061 ns/op	 220.73 MB/s
+BenchmarkSHA512/4
+BenchmarkSHA512/4-12                   	93454231	        12.32 ns/op	 324.78 MB/s
+BenchmarkSHA512/8
+BenchmarkSHA512/8-12                   	62502555	        19.19 ns/op	 416.92 MB/s
+BenchmarkSHA512/16
+BenchmarkSHA512/16-12                  	37800778	        32.17 ns/op	 497.33 MB/s
+BenchmarkSHA512/32
+BenchmarkSHA512/32-12                  	20843876	        57.38 ns/op	 557.72 MB/s
+BenchmarkSHA512/64
+BenchmarkSHA512/64-12                  	11064574	       110.8 ns/op	 577.50 MB/s
+BenchmarkSHA512/128
+BenchmarkSHA512/128-12                 	 5630829	       212.8 ns/op	 601.39 MB/s
+BenchmarkSHA512/256
+BenchmarkSHA512/256-12                 	 2894602	       407.9 ns/op	 627.68 MB/s
+BenchmarkSHA512/512
+BenchmarkSHA512/512-12                 	 1511722	       790.8 ns/op	 647.43 MB/s
+BenchmarkSHA512/1024
+BenchmarkSHA512/1024-12                	  763844	      1553 ns/op	 659.49 MB/s
+BenchmarkSHA512/2048
+BenchmarkSHA512/2048-12                	  359497	      3098 ns/op	 660.99 MB/s
+BenchmarkSHA512/4096
+BenchmarkSHA512/4096-12                	  195735	      6345 ns/op	 645.54 MB/s
+BenchmarkSHA512/8192
+BenchmarkSHA512/8192-12                	   98642	     12241 ns/op	 669.22 MB/s
+BenchmarkXxHash
+BenchmarkXxHash/1
+BenchmarkXxHash/1-12                   	242571187	         4.879 ns/op	 204.96 MB/s
+BenchmarkXxHash/2
+BenchmarkXxHash/2-12                   	247463244	         4.923 ns/op	 406.30 MB/s
+BenchmarkXxHash/4
+BenchmarkXxHash/4-12                   	224698266	         5.305 ns/op	 754.07 MB/s
+BenchmarkXxHash/8
+BenchmarkXxHash/8-12                   	185873661	         6.369 ns/op	1256.12 MB/s
+BenchmarkXxHash/16
+BenchmarkXxHash/16-12                  	132815319	         9.000 ns/op	1777.69 MB/s
+BenchmarkXxHash/32
+BenchmarkXxHash/32-12                  	87894438	        13.48 ns/op	2373.47 MB/s
+BenchmarkXxHash/64
+BenchmarkXxHash/64-12                  	68804596	        17.44 ns/op	3669.24 MB/s
+BenchmarkXxHash/128
+BenchmarkXxHash/128-12                 	59034049	        20.56 ns/op	6226.04 MB/s
+BenchmarkXxHash/256
+BenchmarkXxHash/256-12                 	42491550	        28.29 ns/op	9049.54 MB/s
+BenchmarkXxHash/512
+BenchmarkXxHash/512-12                 	27393259	        44.40 ns/op	11531.99 MB/s
+BenchmarkXxHash/1024
+BenchmarkXxHash/1024-12                	15320323	        78.24 ns/op	13087.81 MB/s
+BenchmarkXxHash/2048
+BenchmarkXxHash/2048-12                	 8432971	       141.7 ns/op	14455.68 MB/s
+BenchmarkXxHash/4096
+BenchmarkXxHash/4096-12                	 3732067	       275.2 ns/op	14884.28 MB/s
+BenchmarkXxHash/8192
+BenchmarkXxHash/8192-12                	 2224606	       532.8 ns/op	15374.05 MB/s
+BenchmarkXXH3Hash
+BenchmarkXXH3Hash/1
+BenchmarkXXH3Hash/1-12                 	180468013	         6.704 ns/op	 149.16 MB/s
+BenchmarkXXH3Hash/2
+BenchmarkXXH3Hash/2-12                 	180550618	         6.785 ns/op	 294.77 MB/s
+BenchmarkXXH3Hash/4
+BenchmarkXXH3Hash/4-12                 	172126677	         7.020 ns/op	 569.77 MB/s
+BenchmarkXXH3Hash/8
+BenchmarkXXH3Hash/8-12                 	169220500	         7.070 ns/op	1131.51 MB/s
+BenchmarkXXH3Hash/16
+BenchmarkXXH3Hash/16-12                	151006582	         7.870 ns/op	2032.94 MB/s
+BenchmarkXXH3Hash/32
+BenchmarkXXH3Hash/32-12                	143422216	         8.414 ns/op	3803.13 MB/s
+BenchmarkXXH3Hash/64
+BenchmarkXXH3Hash/64-12                	127036120	         9.401 ns/op	6807.60 MB/s
+BenchmarkXXH3Hash/128
+BenchmarkXXH3Hash/128-12               	91041798	        11.81 ns/op	10840.52 MB/s
+BenchmarkXXH3Hash/256
+BenchmarkXXH3Hash/256-12               	67971946	        17.76 ns/op	14414.99 MB/s
+BenchmarkXXH3Hash/512
+BenchmarkXXH3Hash/512-12               	40972512	        29.08 ns/op	17608.03 MB/s
+BenchmarkXXH3Hash/1024
+BenchmarkXXH3Hash/1024-12              	23459976	        50.82 ns/op	20148.44 MB/s
+BenchmarkXXH3Hash/2048
+BenchmarkXXH3Hash/2048-12              	13086714	        92.14 ns/op	22226.39 MB/s
+BenchmarkXXH3Hash/4096
+BenchmarkXXH3Hash/4096-12              	 6690098	       173.0 ns/op	23674.47 MB/s
+BenchmarkXXH3Hash/8192
+BenchmarkXXH3Hash/8192-12              	 3539110	       338.9 ns/op	24172.40 MB/s

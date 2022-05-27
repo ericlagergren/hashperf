@@ -1,6 +1,7 @@
 package hashperf
 
 import (
+	"crypto/md5"
 	"crypto/sha1"
 	"crypto/sha256"
 	"crypto/sha512"
@@ -15,9 +16,9 @@ import (
 	"github.com/dchest/siphash"
 	"github.com/ericlagergren/polyval"
 	"github.com/minio/highwayhash"
+	"github.com/zeebo/xxh3"
 	"golang.org/x/crypto/blake2b"
 	"golang.org/x/crypto/blake2s"
-	"golang.org/x/crypto/md4"
 )
 
 func BenchmarkBaseline(b *testing.B) {
@@ -85,7 +86,7 @@ func BenchmarkMaphash(b *testing.B) {
 }
 
 func BenchmarkMD5(b *testing.B) {
-	bench(b, md4.New())
+	bench(b, md5.New())
 }
 
 func BenchmarkPOLYVAL(b *testing.B) {
@@ -129,6 +130,10 @@ func BenchmarkSHA512(b *testing.B) {
 
 func BenchmarkXxHash(b *testing.B) {
 	bench(b, xxhash.New())
+}
+
+func BenchmarkXXH3Hash(b *testing.B) {
+	bench(b, xxh3.New())
 }
 
 func bench(b *testing.B, h hash.Hash) {
